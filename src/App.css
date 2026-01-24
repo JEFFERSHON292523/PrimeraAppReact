@@ -1,3 +1,7 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -28,6 +32,16 @@
   color: #97ca3f;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -36,3 +50,5 @@
     transform: rotate(360deg);
   }
 }
+
+
