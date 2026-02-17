@@ -1,0 +1,39 @@
+.loading-wrapper {
+  display: flex;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.loading-letter {
+  font-size: 2rem;
+  font-weight: bold;
+
+  color: #ff9800;
+  -webkit-text-stroke: 1px #ff6f00;
+  text-stroke: 1px #ff6f00;
+
+  transform: translateX(-150%);
+  animation: slide-in-out 0.9s infinite linear;
+}
+
+@keyframes slide-in-out {
+  0% {
+    transform: translateX(-150%);
+    opacity: 0;
+  }
+
+  25% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(150%);
+    opacity: 0;
+  }
+}

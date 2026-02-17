@@ -4,7 +4,7 @@ li {
   gap: 10px;
 }
 
-.check {
+.icon-check {
   width: 24px;
   height: 24px;
   border: 2px solid #4CAF50;
@@ -15,7 +15,7 @@ li {
   cursor: pointer;
   background-color: #f0f0f0;
   font-weight: bold;
-  color: #4CAF50;
+  color: red;
   transition: all 0.3s ease;
   flex-shrink: 0;
 }
@@ -62,21 +62,46 @@ li {
   opacity: 0.6;
 }
 
-.delete {
+.icon-delete {
   width: 24px;
   height: 24px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  color: #ff6b6b;
+  color: gray;
   font-weight: bold;
   font-size: 18px;
   transition: all 0.3s ease;
   flex-shrink: 0;
 }
 
-.delete:hover {
-  color: #ff0000;
+/* support both old and new wrapper class names on hover */
+.delete:hover,
+.icon-delete:hover {
+  color: gray;
   transform: scale(1.2);
+}
+
+.icon-svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* delete icon default & hover color applied to the inner path */
+.icon-delete .icon-svg path {
+  fill:gray;
+}
+.icon-delete:hover .icon-svg path {
+  fill: #ff0000;
+}
+
+/* check icon stroke color changes on hover */
+.icon-check .icon-svg path {
+  stroke: black;
+  stroke-width: 1.5;
+  fill: none; /* check svg uses stroke */
+}
+.icon-check:hover .icon-svg path {
+  stroke: #90ee90;
 }

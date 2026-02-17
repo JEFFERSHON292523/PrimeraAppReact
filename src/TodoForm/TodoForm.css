@@ -1,0 +1,90 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 
+               'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #fff4ec, #ffe9dc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card estilo iOS */
+form {
+  width: 560px;
+  padding: 48px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  border-radius: 28px;
+  box-shadow: 
+    0 10px 30px rgba(255, 140, 90, 0.15),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* Label */
+form label {
+  font-size: 24px;
+  font-weight: 600;
+  color: #d35400;
+}
+
+/* Textarea grande */
+form textarea {
+  resize: none;
+  min-height: 180px;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1.5px solid #ffd8c2;
+  background: #fffaf7;
+  outline: none;
+  transition: all 0.25s ease;
+}
+
+/* Focus estilo iOS */
+form textarea:focus {
+  border-color: #ff914d;
+  box-shadow: 0 0 0 4px rgba(255, 145, 77, 0.15);
+}
+
+/* Contenedor botones */
+.TodoForm-buttonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 18px;
+}
+
+/* Botones base */
+.TodoForm-button {
+  padding: 14px 30px;
+  font-size: 17px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+/* Botón Añadir (principal) */
+.TodoForm-button:first-child {
+  background: linear-gradient(135deg, #ffb38a, #ff914d);
+  color: white;
+  box-shadow: 0 6px 15px rgba(255, 145, 77, 0.3);
+}
+
+.TodoForm-button:first-child:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 145, 77, 0.4);
+}
+
+/* Botón Cancelar */
+.TodoForm--button--cancel {
+  background: #ffe3d3;
+  color: #c44500;
+}
+
+.TodoForm--button--cancel:hover {
+  background: #ffd2ba;
+}

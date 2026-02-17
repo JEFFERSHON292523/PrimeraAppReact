@@ -1,0 +1,25 @@
+
+
+.Icon-container-check {
+  position: absolute;
+  left: 12px;
+}
+
+.Icon-container-check-active {
+  color: green;
+}
+
+.Icon-container-delete {
+  position: absolute;
+  top: -24px;
+  right: 0;
+}
+
+.Icon-container-delete:hover{
+  color: red;
+}
+
+.Icon-svg {
+  width: 20px;
+  height: 20px;
+}
