@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PrimeraAppReact/static/css/main.2a628552.css",
-    "main.js": "/PrimeraAppReact/static/js/main.247274a8.js",
+    "main.css": "/PrimeraAppReact/static/css/main.96829b21.css",
+    "main.js": "/PrimeraAppReact/static/js/main.4a036481.js",
     "static/media/delete.svg": "/PrimeraAppReact/static/media/delete.7a1331756831591b3cc8a6348f3f1eb3.svg",
     "index.html": "/PrimeraAppReact/index.html",
     "static/media/check.svg": "/PrimeraAppReact/static/media/check.79ab0ff6cb4d95146054bf13b09d7ddf.svg",
-    "main.2a628552.css.map": "/PrimeraAppReact/static/css/main.2a628552.css.map",
-    "main.247274a8.js.map": "/PrimeraAppReact/static/js/main.247274a8.js.map"
+    "main.96829b21.css.map": "/PrimeraAppReact/static/css/main.96829b21.css.map",
+    "main.4a036481.js.map": "/PrimeraAppReact/static/js/main.4a036481.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a628552.css",
-    "static/js/main.247274a8.js"
+    "static/css/main.96829b21.css",
+    "static/js/main.4a036481.js"
   ]
 }
